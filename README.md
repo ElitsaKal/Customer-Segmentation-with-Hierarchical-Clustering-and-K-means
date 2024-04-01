@@ -11,6 +11,7 @@
 2. Data processing and feature engineering:
    
   After dealing with missing values (109) in this data we also create dummy variables for the country and channels column, as they are categorical.
+
 3. Data visualization and correlation analysis:
 
    Before proceeding with the customer segmentation we perform statistical analysis to check on correlations in the data and data distribution.
