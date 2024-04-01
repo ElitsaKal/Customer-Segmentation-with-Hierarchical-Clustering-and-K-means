@@ -3,9 +3,11 @@
   The dataset contains four columns in total. 
   First, we have the student’s overall engagement in the minutes_watched column. Next up is the CLV, or customer lifetime value, followed by the geographical region, where the mapping is as follows:
 ![Screenshot 2024-04-01 145520](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/6c7b3588-4094-416f-b902-62fd2bd7b498)
+ 
   The last column, channel contains results from the onboarding survey and the answer to the question, “How did you hear about us?” 
   Note the mapping below:
 ![Screenshot 2024-04-01 145543](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/d8f2df7c-717d-4950-80fc-0a58014caea7)
+
 3. Data processing and feature engineering:
    
   After dealing with missing values (109) in this data we also create dummy variables for the country and channels column, as they are categorical.
