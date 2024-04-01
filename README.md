@@ -8,7 +8,7 @@
   
 ![Screenshot 2024-04-01 145543](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/d8f2df7c-717d-4950-80fc-0a58014caea7)
 
-3. Data processing and feature engineering:
+2. Data processing and feature engineering:
    
   After dealing with missing values (109) in this data we also create dummy variables for the country and channels column, as they are categorical.
 3. Data visualization and correlation analysis:
@@ -29,6 +29,7 @@ In this step we implement the k-means algorithm. We perform an iteration with 10
 ![line_chart](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/26bbf95d-2d2f-4a70-a437-1b1f17c3714c)
  If we use the elbow method, we observe that the results of the k-means algorithm point to two, four, or nine different clusters. 
  These results differ from the eight clusters found by the hierarchical clustering with the elbow method.
+
 6. Choosing the "right" number of clusters and discussion:
 
 In this case, we’ll opt for the hierarchical clustering results and apply them in the k-means—i.e., perform k-means clustering with eight clusters and analyze the resulting clusters using a summary table.
