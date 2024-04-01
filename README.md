@@ -26,10 +26,10 @@ We use Ward’s method for distance and obtain 8 clusters from the hierarchical 
 ![hierarchical](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/dad3f690-9b56-4540-bfa3-92975ba67a23)
 5. K-means clustering: 
 
-In this step we implement the k-means algorithm. We perform an iteration with 10 steps, utilizing the k-means++ as the initializer. We've set the random state to 42
+   In this step we implement the k-means algorithm. We perform an iteration with 10 steps, utilizing the k-means++ as the initializer. We've set the random state to 42
 ![line_chart](https://github.com/ElitsaKal/Customer-Segmentation-with-Hierarchical-Clustering-and-K-means/assets/162779608/26bbf95d-2d2f-4a70-a437-1b1f17c3714c)
-   If we use the elbow method, we observe that the results of the k-means algorithm point to two, four, or nine different clusters. 
-   These results differ from the eight clusters found by the hierarchical clustering with the elbow method.
+    If we use the elbow method, we observe that the results of the k-means algorithm point to two, four, or nine different clusters. 
+    These results differ from the eight clusters found by the hierarchical clustering with the elbow method.
 
 6. Choosing the "right" number of clusters and discussion:
 
